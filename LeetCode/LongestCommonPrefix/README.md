@@ -11,6 +11,28 @@ If there is no common prefix, return an empty string "".
 만약 공통 접두사가 존재하지 않는다면, ""를 반환하시오.
 
 ## Solution
+       
+       # 1.예외처리
+         if not strs:
+              return ""
+              
+        # 2.모든 문자열 검사
+          for s in strs[1:]:
+        
+        # 3.TwocommonPrefix 함수에 이전 결과 값 ret과 새 문자열 s 보내기 
+        
+        
+        
+        # 5.문자열의 문자 한 글자씩 비교  
+          for i in range(length):
 
+              if A[i] != B[i]:
+                  return A[:i]
+
+          return A[:length]
+    
+        
+        
+            
 
 
