@@ -20,9 +20,11 @@ If there is no common prefix, return an empty string "".
           for s in strs[1:]:
         
         # 3.TwocommonPrefix 함수에 이전 결과 값 ret과 새 문자열 s 보내기 
+              ret = self.TwocommonPrefix(ret, s)
         
-        
-        
+        # 4.더 작은 문자열 길이를 기준으로
+              length = min(len(A),(len(B)))
+              
         # 5.문자열의 문자 한 글자씩 비교  
           for i in range(length):
 
@@ -32,7 +34,3 @@ If there is no common prefix, return an empty string "".
           return A[:length]
     
         
-        
-            
-
-
