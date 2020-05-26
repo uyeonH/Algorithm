@@ -6,5 +6,9 @@ Invert a binary tree.
 
 이진트리를 뒤집어라
 
+![예시]('./image/ex.png')
+
+
+
 ## Solution
 
