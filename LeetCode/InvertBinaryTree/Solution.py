@@ -3,7 +3,7 @@ class Solution:
 
     def invertTree(self, root: TreeNode) -> TreeNode:
         
-        # 예외처리
+        # 배열이 비어있으면, 
         if root is None:
             return None
             
