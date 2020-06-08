@@ -19,3 +19,9 @@ Note: Given n will be a positive integer.
 
 ## Solution
 
+재귀 함수로 작성한 함수도 있지만 Time Limit이 걸려서 다른 방법을 생각해 보았다. 
+
+이해하기 위해 점화식 원리로 생각해 보았다. 
+
+![점화식 원리](./img/sol.png)
+
