@@ -23,5 +23,8 @@ Note: Given n will be a positive integer.
 
 이해하기 위해 점화식 원리로 생각해 보았다. 
 
-![점화식 원리](./img/sol.png)
+![점화식 원리](./img/sol1.png)
+
+![트리로 이해하기](./img/sol2.png)
+
 
