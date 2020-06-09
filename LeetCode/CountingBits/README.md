@@ -11,12 +11,12 @@ Given a non negative integer number num. For every numbers i in the range 0 ≤ 
 
 ## Solution
 
-![이진수 규칙](./img/sol1.png)
+![이진수 규칙](./img/sol1.jpg)
 
 위 규칙에서 보면 2를 두배 하면 4가 되고 최하위비트(LSB)에 0이 붙는다. 5는 2를 두배 하고 1을 더해야하고 1이 붙는다.
 마찬가지로 7, 12도 두배 하면 1의 갯수는 그래도이다. LSB에 0이 추가되기 때문이다. 두배+1(홀수)일 경우 1의 갯수가 하나 늘어난다.
 
-![예시](./img/sol2.png)
+![예시](./img/sol2.jpg)
 
 <pre>
 8을 예로 하면,
