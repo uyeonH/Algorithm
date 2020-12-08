@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1654
+# https://www.acmicpc.net/problem/1654
 
 import sys
 sys.stdin=open("in1.txt", "r")
