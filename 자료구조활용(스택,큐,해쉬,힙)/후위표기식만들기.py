@@ -7,7 +7,7 @@ import sys
 
 sys.stdin = open("in2.txt", "r")
 a = input()  # (3+5)*2
-op = ['+', '-', '*', '/', '(', ')']
+
 stack = []
 res = ''  # 35+2*
 for x in a:
