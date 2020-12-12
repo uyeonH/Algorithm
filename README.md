@@ -6,4 +6,4 @@
 체크용 / 누적용
 
 - 체크용 dic[key]=1, dic2[key]=0 
-- 누적용 dic[key]=dic.get(x,0_+1
+- 누적용 dic[key]=dic.get(x,0)+1
