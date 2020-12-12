@@ -59,10 +59,11 @@ print()
 ## map
 - map(함수, 리스트)
 
-ex| map(int,['1','2','3'])
+ex) map(int,['1','2','3'])
 
 ## lambda
 - lambda 인자 : 표현식
-ex| >>list(map(lambda x: x ** 2, range(5)))     
+
+ex) >>list(map(lambda x: x ** 2, range(5)))     
         [0, 1, 4, 9, 16]
 
