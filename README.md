@@ -14,8 +14,6 @@ get()은 key값이 있으면 그 val값을, 없으면 0을 리턴하는 함수
 
 for문에서 break 없이 실행되었다면 else 실행
 
-## 람다식
-
 ## 내장함수
 
 - isupper(): 대문자인지 확인
@@ -57,3 +55,14 @@ for i, value in data:
     print(i, ":", value)
 print()
 ```
+
+## map
+- map(함수, 리스트)
+
+ex| map(int,['1','2','3'])
+
+## lambda
+- lambda 인자 : 표현식
+ex| >>list(map(lambda x: x ** 2, range(5)))     
+        [0, 1, 4, 9, 16]
+
