@@ -69,4 +69,17 @@ ex) >>list(map(lambda x: x ** 2, range(5)))
 
 ## 전역변수와 지역변수
 
+함수 안에서 전역 변수의 값을 변경하려면 global 키워드를 사용해야 한다. 
 
+```
+def foo():
+
+    global cnt
+    cnt += 1
+    
+if __name__ == "__main__":
+    foo()
+    cnt = 0
+    print(cnt) # 1
+
+```
