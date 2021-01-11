@@ -1,4 +1,4 @@
-# [백준 1062](https://www.acmicpc.net/problem/1062)
+// [백준 1062](https://www.acmicpc.net/problem/1062)
 
 import java.io.FileInputStream;
 import java.util.Arrays;
