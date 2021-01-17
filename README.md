@@ -1,5 +1,11 @@
 # 문법 정리
 
+## List에서 특정 element 갯수 세기
+
+```
+a=[1,2,3,1,1,2]
+print(a.count(1)) # 3
+```
 
 ## dictionary 활용
 
