@@ -1,35 +1,21 @@
-'''
-#input
-5 9
-1 2 
-1 3
-1 4 
-2 1 
-2 3 
-2 5 
-3 4 
-4 2 
-4 5
-
-#output
-6
-
-'''
-
 import sys
 
-#sys.stdin = open("in1.txt", "r")
+sys.stdin = open("in1.txt", "r")
 
 
 def DFS(v):
     global cnt
+    global path
     if v == n:
         cnt += 1
+        print(path) #경로 출력
     else:
         for i in range(1, n + 1):
             if A[v][i] == 1 and ch[i] == 0:
                 ch[i] = 1
+                path.append(i)
                 DFS(i)
+                path.pop()
                 ch[i] = 0
 
 
@@ -43,5 +29,7 @@ if __name__ == "__main__":
     # pprint.pprint(A)
     cnt = 0
     ch[1] = 1
+    path=[]
+    path.append(1)
     DFS(1)
     print(cnt)
