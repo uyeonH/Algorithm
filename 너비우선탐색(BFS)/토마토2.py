@@ -11,8 +11,6 @@ def bfs():
     while queue:
         #print(days)
         days += 1
-        if days == 50:
-            break
 
         # matrix[z][x][y]=1
         for _ in range(len(queue)):
